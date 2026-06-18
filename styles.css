@@ -1,0 +1,159 @@
+:root {
+  --navy: #0f172a;
+  --blue: #1d4ed8;
+  --light-blue: #e0ecff;
+  --gold: #f59e0b;
+  --text: #1f2937;
+  --muted: #64748b;
+  --panel: #ffffff;
+  --border: #e5e7eb;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text);
+  background: #ffffff;
+  line-height: 1.6;
+}
+
+.navbar,
+.site-footer {
+  background: var(--navy);
+}
+
+.navbar-brand,
+.nav-link,
+.footer-link {
+  letter-spacing: 0.02em;
+}
+
+.nav-link:hover,
+.footer-link:hover {
+  color: var(--gold) !important;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.hero-section {
+  background:
+    linear-gradient(135deg, rgba(15, 23, 42, 0.96), rgba(29, 78, 216, 0.86)),
+    radial-gradient(circle at top right, rgba(245, 158, 11, 0.35), transparent 28%);
+  padding-top: 5rem;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.eyebrow,
+.section-label {
+  color: var(--gold);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-size: 0.82rem;
+}
+
+.section-padding {
+  padding: 5rem 0;
+}
+
+.record-card,
+.content-panel,
+.resume-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  padding: 1.5rem;
+  box-shadow: 0 16px 40px rgba(15, 23, 42, 0.08);
+}
+
+.record-card {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.record-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 20px 50px rgba(15, 23, 42, 0.12);
+}
+
+.record-category {
+  color: var(--blue);
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.record-card h3,
+.resume-card h3,
+.content-panel h3 {
+  color: var(--navy);
+}
+
+.record-number {
+  color: var(--navy);
+  font-size: 2.25rem;
+  font-weight: 800;
+  margin-bottom: 0.25rem;
+}
+
+.accent-panel {
+  background: var(--light-blue);
+  border-color: #bfdbfe;
+}
+
+.check-list {
+  padding-left: 1.25rem;
+  margin-bottom: 0;
+}
+
+.check-list li {
+  margin-bottom: 0.6rem;
+}
+
+.table thead th {
+  background: var(--navy);
+  color: #ffffff;
+  border-color: var(--navy);
+}
+
+caption {
+  color: var(--muted);
+}
+
+.resume-card h3 {
+  font-size: 1.25rem;
+  border-bottom: 2px solid var(--light-blue);
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.bg-light {
+  background-color: #f8fafc !important;
+}
+
+.btn-light {
+  color: var(--navy);
+  font-weight: 700;
+}
+
+.btn-outline-light {
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .section-padding {
+    padding: 3.5rem 0;
+  }
+}
