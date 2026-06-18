@@ -1,32 +1,27 @@
-# College Football Stat Leaders Website
+# College Football Website
 
-This folder contains a professional Bootstrap website with three total pages.
+This folder contains a three-page website for the assignment.
+
+## Pages
+
+1. `index.html` — professional Bootstrap resume page. The resume is written directly in HTML.
+2. `stats.html` — from-scratch page built without Bootstrap. It uses `stats.css`, a local image, nested lists, an on-page anchor, an embedded YouTube video, and an interactive Tableau graph.
+3. `simulator.html` — separate college football simulator page with interactive form controls.
 
 ## Files
 
-- `index.html` — homepage with the HTML résumé section kept on the index page
-- `stats.html` — separate page for college football all-time stat leaders
-- `about.html` — project notes, source information, and assignment checklist
-- `styles.css` — custom styling layered on top of Bootstrap
+- `styles.css` — custom CSS for the professional resume and simulator pages.
+- `stats.css` — custom CSS written from scratch for the stats page.
+- `simulator.js` — JavaScript for the football simulator.
+- `assets/football-field.svg` — local image used on the stats page.
 
-## How the pages connect
-
-Each page includes a navigation bar linking to all three pages. The index page also includes clickable page-title cards so visitors can move between the résumé page, the stats page, and the about page.
-
-## Hosting on GitHub Pages
+## Hosting with GitHub Pages
 
 1. Create a new GitHub repository.
-2. Upload `index.html`, `stats.html`, `about.html`, and `styles.css` to the repository root.
-3. Go to **Settings > Pages**.
-4. Under **Build and deployment**, choose **Deploy from a branch**.
-5. Select the `main` branch and `/root`, then save.
-6. GitHub will provide a public site URL after it publishes.
+2. Upload all files and folders from this project.
+3. Go to Settings > Pages.
+4. Under Build and deployment, choose Deploy from a branch.
+5. Select the main branch and root folder.
+6. Open the GitHub Pages URL after it finishes publishing.
 
-## Final checklist
-
-- The site uses readable colors and professional spacing.
-- The résumé is written directly in HTML on `index.html`, not embedded as a PDF.
-- The football statistics are on a separate `stats.html` page.
-- There are three total HTML pages.
-- The pages are connected through clickable titles and a consistent navigation bar.
-- The site avoids images, videos, and social icon links, which reduces the risk of broken content.
+The YouTube and Tableau embeds are expected to work after the site is hosted online.
